@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TFBaseView"
-  spec.version      = "0.01"
+  spec.version      = "0.0.1"
   spec.summary      = "TFBaseView."
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TFBaseView/Class/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Classes/**/*.{h,m}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
